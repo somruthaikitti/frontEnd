@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <style>
+        h1 {
+            color:rgba(0, 100, 255, 0.5);
+            text-align: center;
+            border: 2px dashed red;
+        }
+        .Box1{
+            /*display: inline-block;*/
+            display: inline-block;
+            background-color: hsl(180, 80%, 50%);
+            border: 1px solid black;
+            border-radius: 10px;
+            padding: 16px;
+            margin: 5px;
+        }
+        .Box2{
+            width: 100px;
+            height: 100px;
+            background-color: hsl(0, 100%, 60%);
+            margin: 5px;
+        }
+    </style>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!--
+        a = anchor
+
+        id = ชื่อไม่ซ้ำ
+        class = ซ้ำกันได้
+
+        tag
+        #id
+        .class
+    -->
+    <a href="www.google.com" class="text-green" target="_blank">Google</a>
+    <a id="primary-link" class="text-green" href="Regis.html" >Register</a>
+    <a href="product.html">Product</a>
+    <a href="contact.html">Contact</a>
+    <h1>Hello world!!!!</h1>
+    <h2>NickName: Cha-Aem</h2>
+    <h3 id="title">TEST</h3>
+    <br>
+    <button class="Button2" onclick="editColorText()">ChangeTextColor</button>
+    <button class="Button2" onclick="hideText()">HideText</button>
+    <button id="HideBTN" class="Button2">HideBTN</button>
+    <br>
+    <input type="text" name="" id="todo">
+    <button id="addElementInput" class="Button2">addElementInput</button>
+
+    <button id="addElement" class="Button2">AddElement</button>
+    <div id="results">
+
+    </div>
+
+
+    <p style="font-size: 15px;">Bio: Kasetsart University Major Computer-science</p>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwNr3TFWq8w_JEROSZRi4wbBOBmdhFBXn1gA&s">
+    <img src="Cat1.jpg" alt="" width="250" height="250">
+    <img src="Cat1.jpg" alt="" width="250vw" height="250vw">
+
+    <table border="1">
+        <tr>
+            <th>Fname</th>
+            <th>Lname</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>Somchai</td>
+            <td>Leo</td>
+            <td>Somchai@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Somying</td>
+            <td>Laoprasert</td>
+            <td>Somying@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Somsak</td>
+            <td>Lertprasert</td>
+            <td>Somsak@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Test</td>
+            <td colspan="2">AAAA</td>
+        </tr>
+        <tr>
+            <td>Test1</td>
+        </tr>
+    </table>
+
+    <div class="Box1">Hello world</div>
+    <div class="Box2"></div>
+
+    <button class="Button1">ทั้งหมด</button>
+    <button class="Button2">ทั้งหมด</button>
+    
+    <script src="script.js"></script>
+
+
+</body>
+</html>
