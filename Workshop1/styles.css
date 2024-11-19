@@ -1,0 +1,27 @@
+form {
+    text-align: center;
+}
+
+.positionButton {
+    text-align: center;
+}
+
+.button {
+    color: black;
+    background-color:white;
+    font-family: 'TH Sarabun';
+    font-size: 15px;
+    text-align: center;
+    border: 1px solid rgb(88, 83, 83);
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin: 15px 10px;
+    cursor: pointer;
+}
+
+.button:hover {
+    box-shadow: 0 5px 20px 0 rgba(17, 17, 17, 0.4), 0 5px 30px 0 rgba(17, 17, 17, 0.4);
+    color: white;
+    background-color: black;
+    transition: all 0.3s; 
+}
