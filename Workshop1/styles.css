@@ -25,3 +25,7 @@ form {
     background-color: black;
     transition: all 0.3s; 
 }
+
+h1 {
+    color: red;
+}
